@@ -58,14 +58,31 @@ div#formulario > h1{
     margin-bottom: 10px;
 }
 form > div.campo{
-    background-color: #ecc5e9;
+    background-color: #4da1bb;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 div.campo > label {
     display: none;
+}
+div.campo > span{
+    
+    font-size: 2em;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+div.campo > input{
+    background-color: rgb(219, 150, 247);
+    font-size: 1em;
+    width: calc(100% - 54px);
+    height: 80%;
+    border-radius: 8px;
+    
+
+    transform: translate(50px,-38px); 
 }
 span{
     color: rgb(106, 21, 155);

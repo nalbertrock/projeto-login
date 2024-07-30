@@ -29,9 +29,13 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;  
     }
+   
 }
  
 @media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, rgb(87, 25, 187), pink);
+    }
     section#login{
         width: 990px;
     }
